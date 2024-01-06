@@ -14,6 +14,7 @@ function Dropdown({ selected, setSelected, items }) {
       onMouseEnter={() => setIsActive(true)}
       onMouseLeave={() => setIsActive(false)}
     >
+      <h2 className="dropdown-heading">React Dropdown</h2>
       <div className="dropdown-btn">
         {selected || "Choose One"}
         <span className="fas fa-caret-down"></span>
@@ -38,8 +39,16 @@ function Dropdown({ selected, setSelected, items }) {
 
 function App() {
   const [selected, setSelected] = useState("");
-  ("Choose One");
-  const items = ["Marvels", "DC", "Anime", "K Drama"];
+  const items = [
+    "Marvels",
+    "DC",
+    "Anime",
+    "K Drama",
+    "Bollywood",
+    "Hollywood",
+    "Naruto",
+    "JJK",
+  ];
 
   return (
     <div className="App">
