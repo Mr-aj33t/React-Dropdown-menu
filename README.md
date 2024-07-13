@@ -17,3 +17,22 @@ To get started with the project, clone the repository and install the necessary 
 git clone https://github.com/Mr-aj33t/React-Dropdown-Menu.git
 cd React-Dropdown-Menu
 npm install
+
+
+# Project Structure
+
+React-Dropdown-Menu/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Dropdown.js
+│   │   ├── Dropdown.css
+│   │   └── ...
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── package.json
+├── README.md
+└── ...
